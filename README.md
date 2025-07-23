@@ -1,6 +1,6 @@
 <h1>Power Consumption Prediction</h1>
 
-### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+### [YouTube Demonstration](https://youtu.be/jdz9wYqydS0)
 
 <h2>Description</h2>
 Predicting power consumption accurately helps utilities and consumers optimize energy usage, reduce costs, and support sustainable energy management.
@@ -62,12 +62,21 @@ The model uses the most recent power consumption and date features to predict po
 
 -seaborn
 
-<br /><br />
+<h3>Phase one: Loading and Inspection of the Dataset<h3>
+<p align="center">
+<img src ="screenshot/1.png" alt="inspect dataset">
 
-Sending Commands from Mobile App: <br/>
-<img src="https://i.imgur.com/YourMobileAppImageHere.png" height="80%" width="80%" alt="Bluetooth App"/>
-<br /><br />
+<h3>Phase two: Next, we preprocess the data<h3>
+<img src ="screenshot/2.png">
+<img src ="screenshot/3.png">
+<h3>Phase three: We split the data and then train the model<h3>
+<img src ="screenshot/4.png">
 
-Receiving and Executing Serial Data: <br/>
-<img src="https://i.imgur.com/YourArduinoRunImageHere.png" height="80%" width="80%" alt="Arduino Execution"/>
+<h3>Phase four: This is where our prediction is visualised<h3>
+<img src ="screenshot/5.png">
+
+<h3>Phase six: Next day prediction<h3>
+<img src ="screenshot/6.png">
+</p>
+
 </p>
